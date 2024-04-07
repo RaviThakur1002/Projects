@@ -26,7 +26,7 @@ async function checkWeather(city) {
     if (data.weather[0].main == "Clouds") {
       weatherIcon.className = "fas fa-cloud";
       card.style.backgroundImage =
-        "linear-gradient(to top, #6a85b6 0%, #bac8e0 100%)";
+        " linear-gradient(to top, #09203f 0%, #537895 100%)";
     } else if (data.weather[0].main == "Clear") {
       weatherIcon.className = "fas fa-sun";
       card.style.backgroundImage =
@@ -34,15 +34,15 @@ async function checkWeather(city) {
     } else if (data.weather[0].main == "Rain") {
       weatherIcon.className = "fas fa-cloud-showers-heavy";
       card.style.backgroundImage =
-        " linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)";
+        "linear-gradient(to bottom, #4a4b4c, #292b2c)";
     } else if (data.weather[0].main == "Mist") {
       weatherIcon.className = "fas fa-smog";
       card.style.backgroundImage =
-        " linear-gradient(to top, #09203f 0%, #537895 100%)";
+        "linear-gradient(to bottom, #6e7b8b, #9aa2b2)";
     } else if (data.weather[0].main == "Drizzle") {
       weatherIcon.className = "fas fa-cloud-rain";
       card.style.backgroundImage =
-        "linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);";
+        "linear-gradient(to top, #6a85b6 0%, #bac8e0 100%)";
     }
 
     document.querySelector(".weather").style.display = "block";
