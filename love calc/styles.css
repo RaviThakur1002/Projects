@@ -1,0 +1,101 @@
+html {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to bottom, #fbd3e9, #c3a1e8);
+    /* Gradient background */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-photo/top-view-lots-pink-hearts_23-2149023199.jpg?w=1380&t=st=1712769576~exp=1712770176~hmac=b55719fbc6858b4c8a0ac67a8315021385dea9566c5bbb3bd54be8fc7ae2dcf0');
+    background-size: cover;
+    border-radius: 20px;
+    /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Box shadow */
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    /* Use Great Vibes font for heading */
+    color: #ff5e6c;
+    /* Red */
+    font-size: 60px;
+    /* Increase font size for more impact */
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+button {
+    padding: 15px 20px;
+    /* Increase padding for larger input fields and buttons */
+    margin: 10px;
+    /* Increase margin for better spacing */
+    border: 2px solid #ff5e6c;
+    /* Red border */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ff5e6c;
+    /* Red text */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white background */
+    box-shadow: 0 0 10px rgba(255, 94, 108, 0.3);
+    /* Box shadow */
+}
+
+input[type="text"] {
+    width: 250px;
+    /* Increase width for larger input fields */
+}
+
+::placeholder {
+    color: #ff5e6c;
+    /* Red placeholder text */
+    opacity: 0.8;
+    /* Opacity */
+}
+
+button {
+    font-family: 'Arial', sans-serif;
+    /* Use Arial font for buttons */
+    font-size: 18px;
+    /* Increase font size for buttons */
+    background-color: #ff5e6c;
+    /* Red button background */
+    color: white;
+    cursor: pointer;
+    border: none;
+    /* Remove button border */
+    border-radius: 30px;
+    /* Rounded corners */
+    padding: 15px 30px;
+    /* Increase padding for larger buttons */
+    margin-top: 20px;
+    /* Add margin to separate from input fields */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3f51;
+    /* Darker red on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    /* Make the text bold */
+    color: #aa0044;
+    /* Deep red color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
